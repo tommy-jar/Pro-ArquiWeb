@@ -63,9 +63,9 @@ const routes: Routes = [
       },
 
       {
-        path: 'local-description ', component : LocalDescriptionComponent,
+        path: 'local-description', component : LocalDescriptionComponent,
       },
-      
+
       {
         path: 'schedule', component : ScheduleComponent,
       }

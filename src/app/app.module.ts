@@ -34,6 +34,9 @@ import { ProfileTenantComponent } from './component/rento/profile-tenant/profile
 import { ProfileLessorComponent } from './component/rento/profile-lessor/profile-lessor.component';
 import { AddLocalComponent } from './component/rento/add-local/add-local.component';
 import { LocalDescriptionComponent } from './component/rento/local-description/local-description.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -69,7 +72,11 @@ import { LocalDescriptionComponent } from './component/rento/local-description/l
     MatDatepickerModule,
     MatNativeDateModule,
     MatMenuModule,
-    MatGridListModule
+    MatGridListModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatCardModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
