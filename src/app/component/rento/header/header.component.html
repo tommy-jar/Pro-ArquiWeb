@@ -1,33 +1,28 @@
-<mat-grid-list  cols="2" >
-  <mat-grid-tile-header>
-    <header style ="height: 100%;" >
-      <mat-toolbar color="Primary" class="mat-toolbar mat-primary" >
-        <div class="s1 img">
-          <a href="#"><img src="assets\image\rento.png" ></a>
+ <mat-grid-tile-header>
+    <header>
+      <mat-toolbar color="primary" class="mat-toolbar mat-primary" >
+        <div class="logo">
+          <div class="s1 img">
+            <img [routerLink]="'/rento/home'" src="assets\image\rento.png" >
 
-        </div>
+          </div>
 
-        <div class="search">
-          <div class="input-grup">
-            <input type="email"  class="input">
-            <mat-icon class="icon">search</mat-icon>
+          <div class="search">
+            <div class="input-grup">
+              <input type="email"  class="input">
+              <mat-icon class="icon">search</mat-icon>
+            </div>
           </div>
         </div>
 
-        <div>
-          <a [routerLink]="'/rento/home'">
-            <mat-icon class="icon1">home</mat-icon>
-          </a>
-          <a [routerLink]="'/rento/local'" >
-            <mat-icon class="icon1">shopping_bag</mat-icon>
-          </a>
-          <a [routerLink]="'/rento/schedule'">
-            <mat-icon class="icon1">calendar_month</mat-icon>
-          </a>
-
-
-
+        <div class="links">
+          <mat-icon class="icon1" [routerLink]="'/rento/home'">home</mat-icon>
+          <mat-icon class="icon1" [routerLink]="'/rento/local'">shopping_bag</mat-icon>
+          <mat-icon class="icon1" [routerLink]="'/rento/schedule'">calendar_month</mat-icon>
         </div>
+
+        <img class="image" [routerLink]="'/rento/profile-lessor'" src="assets\image\Perfil.png" alt="Profile image">
+
       </mat-toolbar>
     </header>
   </mat-grid-tile-header>

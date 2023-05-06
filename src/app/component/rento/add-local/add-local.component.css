@@ -1,0 +1,26 @@
+.flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 10px;
+}
+
+img{
+  width: 100px;
+}
+
+.image{
+  width: 60%;
+}
+
+.mat-one{
+  color: white;
+  background-color: #0F2B3E;
+}

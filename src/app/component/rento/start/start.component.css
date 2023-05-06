@@ -13,8 +13,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-.button
+.mat-mdc-button:not(:disabled) {
+  color: white;
+}
+.mat-primary
 {
   color: white;
   background-color: #0F2B3E;

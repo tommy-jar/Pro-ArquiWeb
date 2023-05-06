@@ -40,6 +40,7 @@ import {MatCardModule} from '@angular/material/card';
 import { HeaderComponent } from './component/rento/header/header.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatListModule} from '@angular/material/list';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -81,7 +82,8 @@ import {MatListModule} from '@angular/material/list';
     MatIconModule,
     MatCardModule,
     MatTabsModule,
-    MatListModule
+    MatListModule,
+    MatSelectModule
 
   ],
   providers: [],

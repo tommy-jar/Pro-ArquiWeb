@@ -1,4 +1,5 @@
 <app-header></app-header>
+
 <div class="container">
   <div class="local_banner">
     <img src="assets/image/mansioncastle.png">
@@ -16,7 +17,21 @@
 
   <div class="tabmenu">
     <mat-tab-group fitInkBarToContent mat-stretch-tabs="false" mat-align-tabs="start"  [color]="'red'">
-      <mat-tab label="General"> Content 1 </mat-tab>
+      <mat-tab label="General">
+        <div>
+          <p class="descripcion">Agradable lugar para realizar tus eventos privados. Incluye piscina, terraza, otra piscina y otra terraza. Incluye servicios de luz, agua, internet y gas. Se pueden encontrar centros comerciales, gimnasios, parques y otros lugares públicos. Ven a disfrutar con tus amigos o familia.</p>
+        </div>
+        <div class="servicios">
+          <h3>Servicios destacados</h3>
+          <mat-list role="list">
+            <mat-list-item role="listitem"><img src="assets/image/wifi.png">Wifi</mat-list-item>
+            <mat-list-item role="listitem"><img src="assets/image/sunshine.png">Áreas Libres</mat-list-item>
+            <mat-list-item role="listitem"><img src="assets/image/swimming.png">Piscina</mat-list-item>
+            <mat-list-item role="listitem"><img src="assets/image/cocktail.png">Terraza</mat-list-item>
+            <mat-list-item role="listitem"><img src="assets/image/dumbbell.png">Gimnasio Privado</mat-list-item>
+          </mat-list>
+        </div>
+      </mat-tab>
       <mat-tab label="Fotos">
         <br>
         <mat-grid-list cols="4" rowHeight="1:1">

@@ -1,1 +1,65 @@
-<p>add-local works!</p>
+<app-header></app-header>
+
+<div class="flex">
+  <div>
+    <form class="form">
+      <h3>Agregar local</h3>
+      <mat-form-field class="">
+        <mat-label>Nombre del local</mat-label>
+        <input matInput >
+      </mat-form-field>
+      <mat-form-field class="">
+        <mat-label>Dirección</mat-label>
+        <input matInput >
+      </mat-form-field>
+      <mat-form-field class="">
+        <mat-label>Costo por mes</mat-label>
+        <input matInput >
+      </mat-form-field>
+      <mat-form-field class="">
+        <mat-label>Descripción</mat-label>
+        <input matInput >
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Categorías</mat-label>
+        <mat-select>
+          <mat-option  value ="Vivienda">
+            Vivienda
+          </mat-option>
+          <mat-option  value ="Negocio">
+            Negocio
+          </mat-option>
+          <mat-option  value ="Eventos">
+            Eventos
+          </mat-option>
+
+        </mat-select>
+      </mat-form-field>
+
+
+    </form>
+  </div>
+  <div class="form">
+    <h3>Imagen de portada</h3>
+    <button mat-button color="one">Seleccionar Archivo</button>
+    <img class="image" src="../../../../assets/image/1.png" >
+    <h3>otras imagenes</h3>
+    <button mat-button color="one">Seleccionar Archivo</button>
+    <div class="flex">
+      <img src="../../../../assets/image/2.png" >
+      <img src="../../../../assets/image/3.png" >
+      <mat-icon>add</mat-icon>
+    </div>
+
+    <div class="flex">
+      <button mat-stroked-button [routerLink]="'/rento/profile-lessor'" color="primary">Cancelar</button>
+      <button mat-button [routerLink]="'/rento/local-description'" color="one">Agregar</button>
+
+    </div>
+
+
+
+
+  </div>
+</div>

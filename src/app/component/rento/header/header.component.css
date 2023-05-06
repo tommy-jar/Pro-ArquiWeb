@@ -1,45 +1,81 @@
-.s1 img{
+.s1 img {
   object-fit: cover;
-  width: 10%;
-  height: 10%;
+  width: 50px;
+  height: 50px;
   border-radius: 25px;
 }
 
-.search{
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.image{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.search {
   position: relative;
-  right: 18%;
   display: flex;
 }
-.input-grupo{
-  margin:auto;
+
+.input-grupo {
+  margin: auto;
   display: flex;
-  align-items:  center;
+  align-items: center;
   position: relative;
- }
- .input{
+}
+
+.input {
   width: 250px;
   padding: 10px 10px 10px 50px;
   border-radius: 15px;
   font-size: 16px;
- }
- .icon{
+}
+
+.icon {
   font-size: 30px;
-  position:absolute;
+  position: absolute;
   top: 7px;
   left: 10px;
- }
+}
+
 /*-------------------------------------*/
-.style
-{
+.style {
   color: aqua;
 }
+
 .mat-toolbar.mat-primary {
   background: #4EA3B5;
   color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
 /* ------------------------------------------*/
-.icon1{
-  padding: 15px 15px 15px 15px ;
-  position: relative;
-  right: 50%;
+.icon1 {
+  padding: 15px 15px 15px 15px;
+  transition: all ease-out 0.5s;
+}
+
+.icon1:hover{
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .logo{
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .mat-toolbar.mat-primary{
+    flex-direction: column;
+    justify-content: center;
+    padding: 10rem;
+  }
 }
