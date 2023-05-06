@@ -1,0 +1,45 @@
+.s1 img{
+  object-fit: cover;
+  width: 10%;
+  height: 10%;
+  border-radius: 25px;
+}
+
+.search{
+  position: relative;
+  right: 18%;
+  display: flex;
+}
+.input-grupo{
+  margin:auto;
+  display: flex;
+  align-items:  center;
+  position: relative;
+ }
+ .input{
+  width: 250px;
+  padding: 10px 10px 10px 50px;
+  border-radius: 15px;
+  font-size: 16px;
+ }
+ .icon{
+  font-size: 30px;
+  position:absolute;
+  top: 7px;
+  left: 10px;
+ }
+/*-------------------------------------*/
+.style
+{
+  color: aqua;
+}
+.mat-toolbar.mat-primary {
+  background: #4EA3B5;
+  color: black;
+}
+/* ------------------------------------------*/
+.icon1{
+  padding: 15px 15px 15px 15px ;
+  position: relative;
+  right: 50%;
+}

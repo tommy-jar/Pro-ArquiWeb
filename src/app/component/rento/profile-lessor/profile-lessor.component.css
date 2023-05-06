@@ -1,0 +1,62 @@
+.center
+{
+  text-align: center;
+  height: 300px;
+  padding: 12px;
+}
+
+.avatar{
+  width:200px;
+  height: 200px;
+  border-radius:50%
+}
+
+.example-card-contacto2{
+  width : 500px ;
+  height: 150px;
+  left: 70px;
+}
+
+.tarjeta{
+  float: left;
+}
+
+.example-card2 {
+
+  width : 700px ;
+  height: 320px;
+  left: 70px;
+}
+
+.imagen{
+  width : 200px ;
+  height: 200px;
+  left: 15px;
+  padding-right: 10px;
+  float: left;
+}
+
+.pruebita{
+  float: left;
+  font-size: 17px;
+}
+.pruebita2{
+  text-align: right;
+  font-size: 17px;
+}
+
+.alinearTexto
+{
+  text-align: left;
+}
+
+.alinear{
+  left: 580px;
+}
+
+
+.example-card2-1 {
+  width : 700px ;
+  height: 320px;
+  left: 100px;
+}

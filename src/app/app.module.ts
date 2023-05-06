@@ -37,6 +37,9 @@ import { LocalDescriptionComponent } from './component/rento/local-description/l
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
+import { HeaderComponent } from './component/rento/header/header.component';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -54,7 +57,8 @@ import {MatCardModule} from '@angular/material/card';
     ProfileTenantComponent,
     ProfileLessorComponent,
     AddLocalComponent,
-    LocalDescriptionComponent
+    LocalDescriptionComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -75,7 +79,9 @@ import {MatCardModule} from '@angular/material/card';
     MatGridListModule,
     MatToolbarModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    MatTabsModule,
+    MatListModule
 
   ],
   providers: [],

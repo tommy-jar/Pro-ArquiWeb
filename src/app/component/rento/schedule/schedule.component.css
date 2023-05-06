@@ -1,0 +1,44 @@
+.example-card1 {
+  width : 700px ;
+  height: 320px;
+  margin: auto;
+}
+
+.imagen{
+  width : 250px ;
+  height: 250px;
+  left: 10px;
+  float: left;
+  padding-right: 20px;
+}
+
+.pruebita{
+  float: left;
+  font-size: 17px;
+}
+
+.alinearTexto img
+{
+padding: 10px;
+}
+
+.alinearTexto .alinear
+{
+padding: 10px;
+}
+
+.avatar{
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  float: left;
+}
+
+.derecha{
+  float: right;
+}
+
+h1{
+text-align:left;
+margin-left: 28%;
+}

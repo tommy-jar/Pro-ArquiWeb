@@ -1,80 +1,41 @@
-.s1 img{
-  object-fit: cover;
-  width: 10%;
-  height: 10%;
-  border-radius: 25px;
-}
-
-.search{
-  position: relative;
-  right: 30%;
-  display: flex;
-}
-.input-grupo{
-  margin:auto;
-  display: flex;
-  align-items:  center;
-  position: relative;
- }
- .input{
-  width: 250px;
-  padding: 10px 10px 10px 50px;
-  border-radius: 15px;
-  font-size: 16px;
- }
- .icon{
-  font-size: 30px;
-  position:absolute;
-  top: 7px;
-  left: 10px;
- }
-/*-------------------------------------*/
-.style
+.center
 {
-  color: aqua;
+  text-align: center;
+  height: 300px;
+  padding: 12px;
 }
-.mat-toolbar.mat-primary {
-  background: #4EA3B5;
-  color: black;
-}
-/* ------------------------------------------*/
-.icon1{
-  position: relative;
-  right: 360%;
-}
-.icon2{
-  position: relative;
-  right: 280%;
- }
-.icon3{
-  position: relative;
-  right: 200%;
-}
-/*------------------------------------*/
-.s2 img{
-  width: 30%;
 
+
+.example-card2-1 {
+  margin: auto;
+  margin-top: 3%;
+  width : 50% ;
+  height: auto;
 
 }
 
-.container{
-background-size: cover;
-max-width: 500px;
-position: relative;
-left: 30%;
-top: 40px;
-padding: 0px;
+.imagen{
+  width : 200px ;
+  height: 200px;
+  left: 15px;
+  padding-right: 10px;
+  float: left;
 }
 
-.s1-card{
-  width: 75%;
-
+.pruebita{
+  float: left;
+  font-size: 17px;
+}
+.pruebita2{
+  text-align: right;
+  font-size: 17px;
 }
 
-.container .s1-card h3, .container .s1-card p{
-  width: 80%;
-  padding-left: 10%;
-  padding-right: 10%;
-  display: flex;
+.alinearTexto
+{
+  text-align: left;
+}
 
+.alinear{
+  left: 580px;
 }

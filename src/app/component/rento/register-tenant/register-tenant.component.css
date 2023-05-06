@@ -1,0 +1,38 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+mat-form-field{
+  width: 25%;
+  margin: 0;
+}
+
+.imageLogo{
+  width: 250px;
+}
+
+.mat-mdc-button:not(:disabled) {
+  color: white;
+}
+
+.mat-blue{
+  width: 20%;
+  height: 3rem;
+  margin-top: 1rem;
+  background-color: #0F2B3E;
+  color: white;
+  transition: all ease-in 0.3s;
+  -webkit-transition: all ease-in 0.3s;
+  -moz-transition: all ease-in 0.3s;
+  -ms-transition: all ease-in 0.3s;
+  -o-transition: all ease-in 0.3s;
+}
+
+.mat-blue:hover{
+  margin-top: 1rem;
+  background-color: #2F6E89;
+  color: white;
+}

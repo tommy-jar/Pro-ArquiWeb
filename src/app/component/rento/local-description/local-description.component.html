@@ -1,1 +1,120 @@
-<p>local-description works!</p>
+<app-header></app-header>
+<div class="container">
+  <div class="local_banner">
+    <img src="assets/image/mansioncastle.png">
+  </div>
+
+  <div class="primary_data">
+
+    <h1>Mansión Castle</h1>
+    <p>Por Peter Castle</p>
+    <p>Las Casuarinas 322</p>
+
+
+  </div>
+
+
+  <div class="tabmenu">
+    <mat-tab-group fitInkBarToContent mat-stretch-tabs="false" mat-align-tabs="start"  [color]="'red'">
+      <mat-tab label="General"> Content 1 </mat-tab>
+      <mat-tab label="Fotos">
+        <br>
+        <mat-grid-list cols="4" rowHeight="1:1">
+          <mat-grid-tile>
+            <img src="assets/image/1.png">
+          </mat-grid-tile>
+          <mat-grid-tile>
+            <img src="assets/image/2.png">
+          </mat-grid-tile>
+          <mat-grid-tile>
+            <img src="assets/image/3.png">
+          </mat-grid-tile>
+          <mat-grid-tile>
+            <img src="assets/image/4.png">
+          </mat-grid-tile>
+        </mat-grid-list>
+
+      </mat-tab>
+      <mat-tab label="Opiniones">
+        <p class="subtitulos">Comentarios</p>
+
+        <mat-card class="example-card">
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image">
+              <img src="assets/image/logo_1.png">
+            </div>
+            <mat-card-title>Gabe Newell</mat-card-title>
+            <mat-card-subtitle>Hace 2 meses</mat-card-subtitle>
+          </mat-card-header>
+                    <mat-card-content>
+            <p>
+              Muy buena jato, la rente para mi fiesta para celebrar el exito de la steam deck. Nos amanecimos en el tono sin problemas 10/10
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button>LIKE</button>
+            <button mat-button>SHARE</button>
+          </mat-card-actions>
+        </mat-card>
+
+        <mat-card class="example-card">
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image">
+              <img src="assets/image/logo_2.png">
+            </div>
+            <mat-card-title>Ellon Musk</mat-card-title>
+            <mat-card-subtitle>Hace 1 meses</mat-card-subtitle>
+          </mat-card-header>
+                    <mat-card-content>
+            <p>
+              Decente casa, pase vacaciones con mi familia en perú ahi.
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button>LIKE</button>
+            <button mat-button>SHARE</button>
+          </mat-card-actions>
+        </mat-card>
+
+
+      </mat-tab>
+      <mat-tab label="Precios">
+        <mat-grid-list cols="3" rowHeight="1:1" class="precios_list">
+          <mat-grid-tile>
+            <mat-list role="list">
+              <mat-list-item role="listitem">1 noche</mat-list-item>
+              <mat-list-item role="listitem">1 Full Day</mat-list-item>
+              <mat-list-item role="listitem">Fin de semana</mat-list-item>
+            </mat-list>
+          </mat-grid-tile>
+          <mat-grid-tile>
+            <mat-list role="list">
+              <mat-list-item role="listitem">S/399.00</mat-list-item>
+              <mat-list-item role="listitem">S/699.00</mat-list-item>
+              <mat-list-item role="listitem">S/1099.00</mat-list-item>
+            </mat-list>
+          </mat-grid-tile>
+          <mat-grid-tile>
+            <mat-list role="list"><mat-list-item role="listitem">
+              <button mat-flat-button color="primary">Solicitar</button>
+
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <button mat-flat-button color="primary">Solicitar</button>
+
+            </mat-list-item>
+            <mat-list-item role="listitem">
+              <button mat-flat-button color="primary">Solicitar</button>
+
+            </mat-list-item></mat-list>
+
+
+          </mat-grid-tile>
+
+        </mat-grid-list>
+
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+
+</div>

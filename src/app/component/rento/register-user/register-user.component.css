@@ -1,0 +1,23 @@
+.buttonRegisterUser{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 18rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.mat-mdc-button:not(:disabled) {
+  color: white;
+}
+
+.mat-blue{
+  background-color: #0F2B3E;
+  color: white;
+}
