@@ -1,46 +1,32 @@
-<form class="form">
+<form class="form" [formGroup]="arrendatario">
+
   <img class="imageLogo" src="../../../../assets/image/rento.png" alt="logoRento">
 
-  <mat-form-field >
-      <mat-label>Nombre completo</mat-label>
-      <input matInput>
-  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Id</mat-label>
+    <input type="number"  matInput formControlName="id" >
+</mat-form-field>
 
-  <mat-form-field >
-      <mat-label>Correo electronico</mat-label>
-      <input matInput>
-  </mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Nombre completo</mat-label>
+  <input  matInput formControlName="nombre">
+</mat-form-field>
 
-  <mat-form-field >
-      <mat-label>Nro DNI</mat-label>
-      <input matInput>
-  </mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Apellido Completo</mat-label>
+  <input  matInput formControlName="apellido">
+</mat-form-field>
 
-  <mat-form-field >
-      <mat-label>Numero de Telefono</mat-label>
-      <input matInput>
-  </mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Correo electronico</mat-label>
+  <input matInput formControlName="correo">
+</mat-form-field>
 
-  <mat-form-field >
-      <mat-label>Direccion</mat-label>
-      <input matInput>
-  </mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Cuenta Bancaria</mat-label>
+  <input type="number" matInput formControlName="cuentabancaria">
+</mat-form-field>
 
-  <mat-form-field >
-      <mat-label>Contraseña</mat-label>
-      <input matInput>
-  </mat-form-field>
 
-  <mat-form-field >
-      <mat-label>Confirmar contraseña</mat-label>
-      <input matInput>
-  </mat-form-field>
-
-  <p>Subir su historial crediticio</p>
-
-  <button mat-fab color="primary">
-      <mat-icon>add</mat-icon>
-  </button>
-
-  <button [routerLink]="'/rento/home'" mat-button color="blue">ARRENDADOR</button>
+  <button [routerLink]="'/rento/login'" mat-stroked-button color="accent" (click)="loadData()">REGISTRAR ARENDATARIO</button>
 </form>

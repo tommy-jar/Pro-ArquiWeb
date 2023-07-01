@@ -1,47 +1,21 @@
-<form class="form">
+<form class="form" [formGroup]="arrendador">
   <img class="imageLogo" src="../../../../assets/image/rento.png" alt="logoRento">
 
-  <mat-form-field >
-      <mat-label>Nombre completo</mat-label>
-      <input matInput>
+  <mat-form-field appearance="fill">
+    <mat-label>Id</mat-label>
+    <input type="number"  matInput formControlName="id" >
   </mat-form-field>
 
-  <mat-form-field >
-      <mat-label>Correo electronico</mat-label>
-      <input matInput>
+  <mat-form-field appearance="fill">
+    <mat-label>Nombre completo</mat-label>
+    <input  matInput formControlName="nombre">
   </mat-form-field>
 
-  <mat-form-field >
-      <mat-label>Nro DNI</mat-label>
-      <input matInput>
+  <mat-form-field appearance="fill">
+    <mat-label>Apellido Completo</mat-label>
+    <input  matInput formControlName="apellido">
   </mat-form-field>
 
-  <mat-form-field >
-      <mat-label>Numero de Telefono</mat-label>
-      <input matInput>
-  </mat-form-field>
 
-  <mat-form-field >
-      <mat-label>Direccion</mat-label>
-      <input matInput>
-  </mat-form-field>
-
-  <mat-form-field >
-      <mat-label>Contraseña</mat-label>
-      <input matInput>
-  </mat-form-field>
-
-  <mat-form-field >
-      <mat-label>Confirmar contraseña</mat-label>
-      <input matInput>
-  </mat-form-field>
-
-  <p style="text-align: center;">Para asegurarnos que pueda recibir transacciones mediante Rento digite su numero de cuenta bancaria</p>
-
-  <mat-form-field >
-      <mat-label>Número de cuenta bancaria</mat-label>
-      <input matInput>
-  </mat-form-field>
-
-  <button [routerLink]="'/rento/home'" mat-button color="blue">ARRENDADOR</button>
+  <button [routerLink]="'/rento/login'" mat-stroked-button color="accent" (click)="loadData()">REGISTRAR ARRENDADOR</button>
 </form>
